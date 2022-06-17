@@ -217,12 +217,13 @@
             // 
             // C3
             // 
+            this.C3.BackColor = System.Drawing.Color.Transparent;
             this.C3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.C3.Location = new System.Drawing.Point(174, 186);
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(75, 75);
             this.C3.TabIndex = 10;
-            this.C3.UseVisualStyleBackColor = true;
+            this.C3.UseVisualStyleBackColor = false;
             this.C3.Click += new System.EventHandler(this.button_click);
             this.C3.MouseEnter += new System.EventHandler(this.button_enter);
             this.C3.MouseLeave += new System.EventHandler(this.button_leave);

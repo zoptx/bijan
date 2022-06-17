@@ -37,7 +37,7 @@ namespace Bijan_Bazaz_Tic_Tac_Toe
             if (tour)
                 b.Text = "X";
             else
-                b.Text = "0";
+                b.Text = "O";
 
             tour = !tour;
             b.Enabled = false;
@@ -144,7 +144,7 @@ namespace Bijan_Bazaz_Tic_Tac_Toe
                 if (tour)
                     b.Text = "X ";
                 else
-                    b.Text = "O ";
+                    b.Text = "O";
             }//End if
         }
 

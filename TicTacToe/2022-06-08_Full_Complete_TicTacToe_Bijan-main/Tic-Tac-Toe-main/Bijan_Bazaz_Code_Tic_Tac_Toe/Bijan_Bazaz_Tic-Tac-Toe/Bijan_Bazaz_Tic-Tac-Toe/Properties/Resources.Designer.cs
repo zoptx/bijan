@@ -61,6 +61,16 @@ namespace Bijan_Bazaz_Tic_Tac_Toe.Properties {
         }
         
         /// <summary>
+        ///   Recherche une ressource localisée de type System.Byte[].
+        /// </summary>
+        internal static byte[] audio1 {
+            get {
+                object obj = ResourceManager.GetObject("audio1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap dragon {
